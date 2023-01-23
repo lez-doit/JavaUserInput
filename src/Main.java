@@ -7,7 +7,7 @@ public class Main {
         String name = scanner.nextLine();
         System.out.println("How old are you?");
         int age = scanner.nextInt();
-        scanner.nextLine();
+        scanner.nextLine();//clearing the scanner because of nextInt() operation
         System.out.println("Whats ur favourite food?");
         String food  = scanner.nextLine();
         System.out.println("Hello, " + name);
